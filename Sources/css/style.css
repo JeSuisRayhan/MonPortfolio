@@ -9982,3 +9982,42 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .navbar, body.dark-mode .footer {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .btn-outline-light {
+  color: #e0e0e0;
+  border-color: #e0e0e0;
+}
+
+body.dark-mode .btn-outline-light:hover {
+  background-color: #e0e0e0;
+  color: #121212;
+}
+
+body.dark-mode a, body.dark-mode .btn-outline-primary {
+  color: #bb86fc;
+}
+
+body.dark-mode a:hover, body.dark-mode .btn-outline-primary:hover {
+  color: #3700b3;
+}
+
+body.dark-mode .portfolio-btn {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .service-icon {
+  background-color: #3700b3;
+}
+
+body.dark-mode .progress-bar {
+  background-color: #bb86fc;
+}
